@@ -4,14 +4,7 @@
     <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
     <class>gutierrez.valeria.tiendajpa.Producto</class>
     <properties>
-      <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/mini_tienda?zeroDateTimeBehavior=CONVERT_TO_NULL"/>
-      <property name="jakarta.persistence.jdbc.user" value="root"/>
-      <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
-      <property name="jakarta.persistence.jdbc.password" value="Valeriag06"/>
-      
-      <property name="jakarta.persistence.schema-generation.database.action" value="update"/>
-      
-      <property name="hibernate.cache.provider_class" value="org.hibernate.cache.NoCacheProvider"/>
+
     </properties>
   </persistence-unit>
 </persistence>
