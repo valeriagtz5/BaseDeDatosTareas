@@ -1,0 +1,18 @@
+package enums;
+
+/**
+ *
+ * @author valeria
+ */
+public enum Especialidad {
+    CUIDADO_GENERAL,
+    MEDICINA_VETERINARIA,
+    ADIESTRAMIENTO,
+    LIMPIEZA,
+    ADMINISTRACION,
+    RESCATE_TRASLADO,
+    REHABILITACION,
+    GESTION_ADOPCIONES,
+    DIFUSION,
+    LOGISTICA_SUMINISTROS
+}
